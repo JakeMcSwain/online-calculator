@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=IBM Plex Mono');
+
+html {
+    background-color: tan;
+}
+body {
+    text-align: center;
+}
+
+#container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  height: 500px;
+}
+
+#output {
+    background-color: #e2fee2;
+    color: black;
+    margin-bottom: 4px;
+    height: 100px;
+    text-align: right;
+    font-size: 50pt;
+    padding-top: 7px;
+    font-family: 'IBM Plex Mono';
+}
+
+.numbers {
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+.functions {
+    background-color: gray;
+    color: black;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+#calcButtons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    height: 300px;
+}
+
+#equals {
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+#clear {
+    background-color: red;
+    color: black;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+#calcBody {
+    background-color: lightslategrey;
+    height: 525px;
+    width: 425px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+}
+
+#solar {
+    height: 40px;
+    width: 120px;
+    background-color: dimgray;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
