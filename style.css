@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=IBM Plex Mono');
+@import url('https://fonts.googleapis.com/css?family=Bungee+Shade&display=swap&subset=latin-ext');
 
 html {
-    background-color: tan;
+    background: linear-gradient(45deg, aqua, #99ccff)
 }
 body {
     text-align: center;
@@ -17,7 +18,7 @@ body {
 }
 
 #output {
-    background-color: #e2fee2;
+    background-color: orange;
     color: black;
     margin-bottom: 4px;
     height: 100px;
@@ -28,14 +29,14 @@ body {
 }
 
 .numbers {
-    background-color: black;
+    background-color: green;
     color: white;
     border-radius: 5px;
     padding: 2px;
 }
 
 .functions {
-    background-color: gray;
+    background-color: yellowgreen;
     color: black;
     font-size: 20px;
     border-radius: 5px;
@@ -63,7 +64,7 @@ body {
 }
 
 #calcBody {
-    background-color: lightslategrey;
+    background-color: yellow;
     height: 525px;
     width: 425px;
     position: absolute;
@@ -71,6 +72,7 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 15px;
+    margin-top: 40px;
 }
 
 #solar {
@@ -81,4 +83,10 @@ body {
     margin-bottom: 20px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+#title {
+    font-family: 'Bungee Shade', cursive;
+    color: green;
+    text-shadow: 1px 4px 5px yellowgreen;
 }

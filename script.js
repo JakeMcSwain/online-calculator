@@ -14,20 +14,28 @@ let operator = undefined;
 
 //Event Listeners for Clicks on Buttons//
 numbers.forEach(button => button.addEventListener('click', () => {
+    var audio = new Audio("quack.mp3")
+    audio.play()
     appendNumber(button.innerText)
     updateDisplay();
 })); 
 
 operations.forEach(button => button.addEventListener('click', () => {
+    var audio = new Audio("quack.mp3")
+    audio.play()
     chooseOperation(button.innerText)
 }));
 
 equalButton.addEventListener('click', () => {
+    var audio = new Audio("quack.mp3")
+    audio.play()
     operate();
     updateDisplay();
 });
     
 clearButton.addEventListener('click', () => {
+    var audio = new Audio("quack.mp3")
+    audio.play()
     clear();
     updateDisplay();
 });
@@ -89,3 +97,4 @@ function clear() {
     previousNum = '';
     currentNum = '';
 }
+
